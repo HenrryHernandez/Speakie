@@ -19,12 +19,20 @@ module.exports = {
         "card-three-icon": "#FFA9A9",
         "custom-title-one": "#930BFF",
         "custom-title-two": "#FF3636",
+        "profile-pic-one": "#bc80ed",
+        "profile-pic-two": "#df8383",
         red: "#ff0000",
         green: "#00ff00",
         blue: "#0000ff",
       },
       dropShadow: {
         "custom-card": "0px 0px 8px rgba(0, 0, 0, 0.4)",
+      },
+      minHeight: {
+        "testimony-card": "24rem",
+      },
+      lineHeight: {
+        "testimony-card": "1.8",
       },
     },
   },
