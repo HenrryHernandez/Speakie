@@ -17,6 +17,8 @@ module.exports = {
         "card-three-gradient-one": "#716EF9",
         "card-three-gradient-two": "#F27373",
         "card-three-icon": "#FFA9A9",
+        "custom-title-one": "#930BFF",
+        "custom-title-two": "#FF3636",
         red: "#ff0000",
         green: "#00ff00",
         blue: "#0000ff",
