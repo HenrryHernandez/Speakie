@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     extend: {
       borderRadius: { card: "2rem" },
+      borderWidth: {
+        1: "1px",
+      },
       colors: {
         one: "#9171C5",
         "card-gradient-one": "#7B8EE2",
