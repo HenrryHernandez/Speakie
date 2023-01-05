@@ -7,6 +7,9 @@ module.exports = {
       borderWidth: {
         1: "1px",
       },
+      blur: {
+        shape: "120px",
+      },
       colors: {
         one: "#9171C5",
         two: "#ab99de",
