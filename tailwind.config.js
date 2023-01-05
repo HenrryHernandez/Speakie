@@ -9,6 +9,7 @@ module.exports = {
       },
       colors: {
         one: "#9171C5",
+        two: "#ab99de",
         "card-gradient-one": "#7B8EE2",
         "card-gradient-two": "#9271C5",
         "card-one-gradient-one": "#F96EC5",

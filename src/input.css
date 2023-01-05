@@ -32,6 +32,10 @@ h5 {
   font-size: 1.4rem;
 }
 
+.menu {
+  transition: all 0.6s ease-in-out;
+}
+
 .book {
   animation: book-animation 3s infinite ease-in-out;
 }

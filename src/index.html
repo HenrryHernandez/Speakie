@@ -9,6 +9,8 @@
       src="https://kit.fontawesome.com/bfe5530393.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./script.js" async></script>
+
     <link
       rel="stylesheet"
       type="text/css"
@@ -21,8 +23,18 @@
   </head>
   <body>
     <!-- HEADER & NAVBAR -->
-    <header>
-      <nav class="w-full h-16 flex flex-row justify-between pl-4">
+    <header class="relative">
+      <div id="menu" class="w-full flex flex-col items-center gap-y-2 pb-8 pt-12 absolute rounded-b-3xl text-white text-xs -top-80 bg-one menu">
+        <a href="#">Sign in/Sign up</a>
+        <div class="w-4/5 h-1 border-t-1"></div>
+        <a href="#">Lectures</a>
+        <a href="#">Find teacher</a>
+
+        
+        <div id="close-menu" class="w-10 h-10 flex justify-center items-center absolute right-4 top-2 text-2xl rounded-full active:bg-two"><i class="fa-regular fa-circle-xmark"></i></div>
+      </div>
+
+      <nav class="w-full h-16 flex justify-between pl-4">
         <div class="w-20 h-full flex justify-center items-center">
           <img
             src="../assets/img/logo.png"
@@ -30,7 +42,7 @@
             class="w-full h-full object-contain"
           />
         </div>
-        <div class="w-16 h-full flex justify-center items-center text-one">
+        <div id="open-menu" class="w-16 h-full flex justify-center items-center text-one">
           <i class="fa-solid fa-bars"></i>
         </div>
       </nav>
