@@ -32,6 +32,14 @@ h5 {
   font-size: 1.4rem;
 }
 
+.card {
+  @apply w-full h-44 relative flex flex-col justify-center items-center rounded-card text-xl text-white drop-shadow-custom-card bg-gradient-to-tr;
+}
+
+.section-title {
+  @apply bg-gradient-to-tr from-custom-title-one to-custom-title-two bg-clip-text text-transparent;
+}
+
 .menu {
   transition: all 0.6s ease-in-out;
 }
