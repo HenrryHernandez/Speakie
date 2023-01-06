@@ -11,6 +11,7 @@
 body {
   font-family: "Kodchasan", sans-serif;
   font-family: "Merienda", cursive;
+  /* background-color: rgb(243, 233, 245); */
 }
 
 h1 {
@@ -77,25 +78,25 @@ h5 {
   background-color: blueviolet;
 }
 
-.banner .shape-shadow {
+#banner .shape-shadow {
   left: 0;
   top: 600px;
   background-color: red;
 }
 
-.cards-section .shape-shadow {
+#cards-section .shape-shadow {
   right: 0;
   top: 1200px;
   background-color: blue;
 }
 
-.offer-section .shape-shadow {
+#offer-section .shape-shadow {
   left: 0;
   top: 1800px;
   background-color: blue;
 }
 
-.testimonies-section .shape-shadow {
+#testimonies-section .shape-shadow {
   right: 0;
   top: 2400px;
   background-color: blueviolet;
