@@ -42,6 +42,10 @@ module.exports = {
         "testimony-card": "1.8",
       },
     },
+    screens: {
+      desktop: { max: "2200px" },
+      phone: { max: "750px" },
+    },
   },
   plugins: [],
 };

@@ -33,15 +33,29 @@
       </div>
 
       <!-- menu bar -->
-      <nav class="w-full h-16 flex justify-between pl-4">
-        <div class="w-20 h-full flex justify-center items-center">
+      <nav class="w-full h-16 flex justify-between pl-4 phone:pr-0 desktop:pr-4">
+        <div class="phone:w-20 desktop:w-40 h-full flex justify-center items-center">
           <img
             src="../assets/img/logo.png"
             alt="logo"
             class="w-full h-full object-contain"
           />
         </div>
-        <div id="open-menu" class="w-16 h-full flex justify-center items-center text-one">
+
+        <div class="phone:hidden w-full h-full flex items-center justify-center gap-x-6 text-2xl text-one">
+          <a href="#">
+            <i class="fa-solid fa-book"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </div>
+
+        <div class="phone:hidden w-40 h-full flex items-center text-sm text-one">
+          <a href="#">Sign In/Sign Up</a>
+        </div>
+
+        <div id="open-menu" class="desktop:hidden w-16 h-full phone:flex justify-center items-center text-one">
           <i class="fa-solid fa-bars"></i>
         </div>
       </nav>
