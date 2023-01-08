@@ -191,11 +191,27 @@
         <h3 class="section-title font-bold">Testimonies</h3>
 
         <div
-          class="flex items-center w-full pt-20 pb-16 px-12 relative text-one"
+          class="flex items-center justify-center w-full pt-20 pb-16 phone:px-12 relative text-one"
         >
+          <!-- card left -->
+          <div class="other-testimony-card prev-card">
+            <p class="other-testimony-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos
+              eum quas praesentium, optio labore velit molestiae adipisci
+              obcaecati nam ducimus magnam voluptate fuga. Ab laboriosam
+              nesciunt minima, qui maxime cupiditate obcaecati quae, voluptas
+              nam eaque delectus placeat, dolorum quas facere quam tempore
+              aperiam quo accusamus! Sapiente in neque rem?
+            </p>
+
+            <button class="absolute left-16 text-2xl text-one">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+          </div>
+
           <!-- card -->
           <div
-            class="w-full min-h-testimony-card flex flex-col items-center relative px-4 pt-16 pb-8 text-white rounded-card bg-gradient-to-tr from-card-gradient-one to-card-gradient-two"
+            class="phone:w-full w-96 min-h-testimony-card flex flex-col items-center relative px-4 pt-16 pb-8 phone:mx-0 mx-8 text-white rounded-card bg-gradient-to-tr from-card-gradient-one to-card-gradient-two"
           >
             <img
               src="./../assets/img/profile-pic.png"
@@ -212,10 +228,26 @@
             </p>
           </div>
 
-          <button class="absolute left-4 text-2xl">
+          <!-- card right -->
+          <div class="other-testimony-card next-card">
+            <p class="other-testimony-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos
+              eum quas praesentium, optio labore velit molestiae adipisci
+              obcaecati nam ducimus magnam voluptate fuga. Ab laboriosam
+              nesciunt minima, qui maxime cupiditate obcaecati quae, voluptas
+              nam eaque delectus placeat, dolorum quas facere quam tempore
+              aperiam quo accusamus! Sapiente in neque rem?
+            </p>
+
+            <button class="absolute right-16 text-2xl text-one">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+
+          <button class="phone:flex hidden absolute left-4 text-2xl">
             <i class="fa-solid fa-chevron-left"></i>
           </button>
-          <button class="absolute right-4 text-2xl">
+          <button class="phone:flex hidden absolute right-4 text-2xl">
             <i class="fa-solid fa-chevron-right"></i>
           </button>
         </div>
