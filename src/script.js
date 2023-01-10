@@ -19,6 +19,7 @@ openMenuBtn.addEventListener("click", openMenu);
 const changeHeaderColor = () => {
   const header = document.getElementById("header");
   const bars = document.getElementById("open-menu");
+  const headerShapeShadow = document.getElementById("header-shape-shadow");
 
   const headerSize = 64;
 
@@ -26,10 +27,12 @@ const changeHeaderColor = () => {
     header.classList.add("bg-one");
     bars.classList.remove("text-one");
     bars.classList.add("text-white");
+    headerShapeShadow.classList.add("hidden");
   } else {
     header.classList.remove("bg-one");
     bars.classList.remove("text-white");
     bars.classList.add("text-one");
+    headerShapeShadow.classList.remove("hidden");
   }
 };
 
