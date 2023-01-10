@@ -23,271 +23,285 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- HEADER & NAVBAR -->
-    <header id="header" class="sticky top-0 z-10">
-      <div id="header-shape-shadow" class="shape-shadow"></div>
+    <div class="min-h-full">
+      <!-- HEADER & NAVBAR -->
+      <header id="header" class="sticky top-0 z-10">
+        <div id="header-shape-shadow" class="shape-shadow"></div>
 
-      <!-- menu options -->
-      <div
-        id="menu"
-        class="w-full flex flex-col items-center gap-y-2 pb-8 pt-12 absolute -top-80 rounded-b-3xl text-white text-xs bg-one menu"
-      >
-        <a href="#">Sign in/Sign up</a>
-        <div class="w-4/5 h-1 border-t-1"></div>
-        <a href="#">Lectures</a>
-        <a href="#">Find teacher</a>
-
+        <!-- menu options -->
         <div
-          id="close-menu"
-          class="w-10 h-10 flex justify-center items-center absolute right-4 top-2 text-2xl rounded-full active:bg-two"
+          id="menu"
+          class="w-full flex flex-col items-center gap-y-2 pb-8 pt-12 absolute -top-80 rounded-b-3xl text-white text-xs bg-one menu"
         >
-          <i class="fa-regular fa-circle-xmark"></i>
-        </div>
-      </div>
+          <a href="#">Sign in/Sign up</a>
+          <div class="w-4/5 h-1 border-t-1"></div>
+          <a href="#">Lectures</a>
+          <a href="#">Find teacher</a>
 
-      <!-- menu bar -->
-      <nav
-        class="w-full h-16 flex justify-between pl-4 phone:pr-0 desktop:pr-4"
-      >
-        <div
-          class="phone:w-20 desktop:w-40 h-full flex justify-center items-center"
-        >
-          <img
-            src="../assets/img/logo.png"
-            alt="logo"
-            class="w-full h-full object-contain"
-          />
-        </div>
-
-        <div
-          class="phone:hidden w-full h-full flex items-center justify-center gap-x-6 text-2xl text-one"
-        >
-          <a href="#">
-            <i class="fa-solid fa-book"></i>
-          </a>
-          <a href="#">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </a>
-        </div>
-
-        <div
-          class="phone:hidden w-40 h-full flex items-center text-sm text-one"
-        >
-          <a href="#">Sign In/Sign Up</a>
-        </div>
-
-        <div
-          id="open-menu"
-          class="desktop:hidden w-16 h-full phone:flex justify-center items-center text-one"
-        >
-          <i class="fa-solid fa-bars"></i>
-        </div>
-      </nav>
-    </header>
-
-    <!-- BANNER -->
-    <section id="banner" class="flex justify-center py-12 px-8">
-      <div class="shape-shadow"></div>
-
-      <!-- card -->
-      <div
-        class="w-full flex phone:flex-col items-center justify-center phone:py-0 desktop:py-16 text-white rounded-card bg-gradient-to-tr from-card-gradient-one to-card-gradient-two"
-      >
-        <div
-          class="w-full h-56 flex flex-col justify-center items-center px-16 pt-8 text-center phone:text-sm text-md"
-        >
-          <h1 class="phone:mb-14 desktop:mb-4 font-bold">Speakie</h1>
-
-          <blockquote class="mb-2">
-            <p
-              class="phone:w-full desktop:w-44 phone:text-center desktop:text-start"
-            >
-              To have another language is to posses a second soul.
-            </p>
-          </blockquote>
-          <p class="self-end">— CHARLEMAGNE</p>
-        </div>
-
-        <div class="w-full flex flex-col justify-center items-center h-64">
-          <img
-            src="../assets/img/language-translator.png"
-            alt="language-translator"
-            class="w-full h-full object-contain"
-          />
-        </div>
-      </div>
-    </section>
-
-    <!-- CARDS -->
-    <section
-      id="cards-section"
-      class="flex phone:flex-col justify-center gap-16 py-12 px-20"
-    >
-      <div class="shape-shadow"></div>
-
-      <div class="card from-card-one-gradient-one to-card-one-gradient-two">
-        <i
-          class="fa-solid fa-book absolute -top-6 text-card-one-icon text-5xl"
-        ></i>
-        <p>
-          +30,000<br />
-          lectures
-        </p>
-      </div>
-
-      <div class="card from-card-two-gradient-one to-card-two-gradient-two">
-        <i
-          class="fa-solid fa-users absolute -top-6 text-card-two-icon text-5xl"
-        ></i>
-        <p>
-          +100,000<br />
-          students
-        </p>
-      </div>
-
-      <div class="card from-card-three-gradient-one to-card-three-gradient-two">
-        <i
-          class="fa-solid fa-language absolute -top-6 text-card-three-icon text-5xl"
-        ></i>
-        <p class="text-center">
-          54<br />
-          languages
-        </p>
-      </div>
-    </section>
-
-    <!-- OFFER -->
-    <section
-      id="offer-section"
-      class="flex phone:flex-col flex-row-reverse justify-center items-center desktop:gap-x-16 mt-16"
-    >
-      <div class="shape-shadow"></div>
-
-      <div class="flex flex-col justify-center items-center">
-        <h3 class="section-title font-bold">Special Offer</h3>
-
-        <p class="phone:w-full w-52 phone:text-center my-4 phone:px-16">
-          If you sign up right now, you'll receive a free class every Friday
-          during January.
-        </p>
-
-        <button
-          class="rounded-full py-3 px-12 my-4 text-white text-sm bg-gradient-to-tr from-card-gradient-one to-card-gradient-two"
-        >
-          Sign Up Now!
-        </button>
-      </div>
-
-      <div class="phone:w-64 w-80">
-        <img src="../assets/img/favourite-book.png" alt="book" class="book" />
-      </div>
-    </section>
-
-    <!-- TESTIMONIES -->
-    <section id="testimonies-section" class="mt-16">
-      <div class="hidden phone:flex shape-shadow"></div>
-
-      <div class="flex flex-col justify-center items-center">
-        <h3 class="section-title font-bold">Testimonies</h3>
-
-        <div
-          class="flex items-center justify-center w-full pt-20 pb-16 phone:px-12 relative text-one"
-        >
-          <!-- card left -->
-          <div class="other-testimony-card prev-card">
-            <p class="other-testimony-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos
-              eum quas praesentium, optio labore velit molestiae adipisci
-              obcaecati nam ducimus magnam voluptate fuga. Ab laboriosam
-              nesciunt minima, qui maxime cupiditate obcaecati quae, voluptas
-              nam eaque delectus placeat, dolorum quas facere quam tempore
-              aperiam quo accusamus! Sapiente in neque rem?
-            </p>
-
-            <button class="absolute left-16 text-2xl text-one">
-              <i class="fa-solid fa-chevron-left"></i>
-            </button>
-          </div>
-
-          <!-- card -->
           <div
-            class="phone:w-full w-96 min-h-testimony-card flex flex-col items-center relative px-4 pt-16 pb-8 phone:mx-0 mx-8 text-white rounded-card bg-gradient-to-tr from-card-gradient-one to-card-gradient-two"
+            id="close-menu"
+            class="w-10 h-10 flex justify-center items-center absolute right-4 top-2 text-2xl rounded-full active:bg-two"
+          >
+            <i class="fa-regular fa-circle-xmark"></i>
+          </div>
+        </div>
+
+        <!-- menu bar -->
+        <nav
+          class="w-full h-16 flex justify-between pl-4 phone:pr-0 desktop:pr-4"
+        >
+          <div
+            class="phone:w-20 desktop:w-40 h-full flex justify-center items-center"
           >
             <img
-              src="./../assets/img/profile-pic.png"
-              alt="profile-pic"
-              class="w-20 absolute -top-10 rounded-full text-center border-2 border-one bg-gradient-to-tr from-profile-pic-one to-profile-pic-two"
+              src="../assets/img/logo.png"
+              alt="logo"
+              class="w-full h-full object-contain"
             />
-            <p class="text-center leading-testimony-card">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos
-              eum quas praesentium, optio labore velit molestiae adipisci
-              obcaecati nam ducimus magnam voluptate fuga. Ab laboriosam
-              nesciunt minima, qui maxime cupiditate obcaecati quae, voluptas
-              nam eaque delectus placeat, dolorum quas facere quam tempore
-              aperiam quo accusamus! Sapiente in neque rem?
-            </p>
           </div>
 
-          <!-- card right -->
-          <div class="other-testimony-card next-card">
-            <p class="other-testimony-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos
-              eum quas praesentium, optio labore velit molestiae adipisci
-              obcaecati nam ducimus magnam voluptate fuga. Ab laboriosam
-              nesciunt minima, qui maxime cupiditate obcaecati quae, voluptas
-              nam eaque delectus placeat, dolorum quas facere quam tempore
-              aperiam quo accusamus! Sapiente in neque rem?
-            </p>
+          <div
+            class="phone:hidden w-full h-full flex items-center justify-center gap-x-6 text-2xl text-one"
+          >
+            <a href="#">
+              <i class="fa-solid fa-book"></i>
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+          </div>
 
-            <button class="absolute right-16 text-2xl text-one">
+          <div
+            class="phone:hidden w-40 h-full flex items-center text-sm text-one"
+          >
+            <a href="#">Sign In/Sign Up</a>
+          </div>
+
+          <div
+            id="open-menu"
+            class="desktop:hidden w-16 h-full phone:flex justify-center items-center text-one"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+      </header>
+
+      <!-- BANNER -->
+      <section id="banner" class="flex justify-center py-12 px-8">
+        <div class="shape-shadow"></div>
+
+        <!-- card -->
+        <div
+          class="w-full flex phone:flex-col items-center justify-center phone:py-0 desktop:py-16 text-white rounded-card bg-gradient-to-tr from-card-gradient-one to-card-gradient-two"
+        >
+          <div
+            class="w-full h-56 flex flex-col justify-center items-center px-16 pt-8 text-center phone:text-sm text-md"
+          >
+            <h1 class="phone:mb-14 desktop:mb-4 font-bold">Speakie</h1>
+
+            <blockquote class="mb-2">
+              <p
+                class="phone:w-full desktop:w-44 phone:text-center desktop:text-start"
+              >
+                To have another language is to posses a second soul.
+              </p>
+            </blockquote>
+            <p class="self-end">— CHARLEMAGNE</p>
+          </div>
+
+          <div class="w-full flex flex-col justify-center items-center h-64">
+            <img
+              src="../assets/img/language-translator.png"
+              alt="language-translator"
+              class="w-full h-full object-contain"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- CARDS -->
+      <section
+        id="cards-section"
+        class="flex phone:flex-col justify-center gap-16 py-12 px-20"
+      >
+        <div class="shape-shadow"></div>
+
+        <div class="card from-card-one-gradient-one to-card-one-gradient-two">
+          <i
+            class="fa-solid fa-book absolute -top-6 text-card-one-icon text-5xl"
+          ></i>
+          <p>
+            +30,000<br />
+            lectures
+          </p>
+        </div>
+
+        <div class="card from-card-two-gradient-one to-card-two-gradient-two">
+          <i
+            class="fa-solid fa-users absolute -top-6 text-card-two-icon text-5xl"
+          ></i>
+          <p>
+            +100,000<br />
+            students
+          </p>
+        </div>
+
+        <div
+          class="card from-card-three-gradient-one to-card-three-gradient-two"
+        >
+          <i
+            class="fa-solid fa-language absolute -top-6 text-card-three-icon text-5xl"
+          ></i>
+          <p class="text-center">
+            54<br />
+            languages
+          </p>
+        </div>
+      </section>
+
+      <!-- OFFER -->
+      <section
+        id="offer-section"
+        class="flex phone:flex-col flex-row-reverse justify-center items-center desktop:gap-x-16 mt-16"
+      >
+        <div class="shape-shadow"></div>
+
+        <div class="flex flex-col justify-center items-center">
+          <h3 class="section-title font-bold">Special Offer</h3>
+
+          <p class="phone:w-full w-52 phone:text-center my-4 phone:px-16">
+            If you sign up right now, you'll receive a free class every Friday
+            during January.
+          </p>
+
+          <button
+            class="rounded-full py-3 px-12 my-4 text-white text-sm bg-gradient-to-tr from-card-gradient-one to-card-gradient-two"
+          >
+            Sign Up Now!
+          </button>
+        </div>
+
+        <div class="phone:w-64 w-80">
+          <img src="../assets/img/favourite-book.png" alt="book" class="book" />
+        </div>
+      </section>
+
+      <!-- TESTIMONIES -->
+      <section id="testimonies-section" class="mt-16 pb-4 phone:pb-0">
+        <div class="hidden phone:flex shape-shadow"></div>
+
+        <div class="flex flex-col justify-center items-center">
+          <h3 class="section-title font-bold">Testimonies</h3>
+
+          <div
+            class="flex items-center justify-center w-full pt-20 pb-16 phone:px-12 relative text-one"
+          >
+            <!-- card left -->
+            <div class="other-testimony-card prev-card">
+              <p class="other-testimony-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                quos eum quas praesentium, optio labore velit molestiae adipisci
+                obcaecati nam ducimus magnam voluptate fuga. Ab laboriosam
+                nesciunt minima, qui maxime cupiditate obcaecati quae, voluptas
+                nam eaque delectus placeat, dolorum quas facere quam tempore
+                aperiam quo accusamus! Sapiente in neque rem?
+              </p>
+
+              <button class="absolute left-16 text-2xl text-one">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+            </div>
+
+            <!-- card -->
+            <div
+              class="phone:w-full w-96 min-h-testimony-card flex flex-col items-center relative px-4 pt-16 pb-8 phone:mx-0 mx-8 text-white rounded-card bg-gradient-to-tr from-card-gradient-one to-card-gradient-two"
+            >
+              <img
+                src="./../assets/img/profile-pic.png"
+                alt="profile-pic"
+                class="w-20 absolute -top-10 rounded-full text-center border-2 border-one bg-gradient-to-tr from-profile-pic-one to-profile-pic-two"
+              />
+              <p class="text-center leading-testimony-card">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                quos eum quas praesentium, optio labore velit molestiae adipisci
+                obcaecati nam ducimus magnam voluptate fuga. Ab laboriosam
+                nesciunt minima, qui maxime cupiditate obcaecati quae, voluptas
+                nam eaque delectus placeat, dolorum quas facere quam tempore
+                aperiam quo accusamus! Sapiente in neque rem?
+              </p>
+            </div>
+
+            <!-- card right -->
+            <div class="other-testimony-card next-card">
+              <p class="other-testimony-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                quos eum quas praesentium, optio labore velit molestiae adipisci
+                obcaecati nam ducimus magnam voluptate fuga. Ab laboriosam
+                nesciunt minima, qui maxime cupiditate obcaecati quae, voluptas
+                nam eaque delectus placeat, dolorum quas facere quam tempore
+                aperiam quo accusamus! Sapiente in neque rem?
+              </p>
+
+              <button class="absolute right-16 text-2xl text-one">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+
+            <button class="phone:flex hidden absolute left-4 text-2xl">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="phone:flex hidden absolute right-4 text-2xl">
               <i class="fa-solid fa-chevron-right"></i>
             </button>
           </div>
+        </div>
+      </section>
 
-          <button class="phone:flex hidden absolute left-4 text-2xl">
-            <i class="fa-solid fa-chevron-left"></i>
+      <!-- FOOTER -->
+
+      <footer
+        id="footer"
+        class="w-full flex phone:flex-col flex-row-reverse justify-between items-center phone:items-stretch gap-y-4 mt-8 px-4 py-4 phone:py-0 phone:px-0 phone:pb-4 text-white bg-one"
+      >
+        <div
+          class="flex justify-center phone:gap-x-8 phone:border-b-1 phone:py-4"
+        >
+          <button class="w-10 h-10 phone:w-8 phone:h-8 rounded-full bg-white">
+            <i
+              class="fa-brands fa-linkedin text-2xl phone:text-xl text-one"
+            ></i>
           </button>
-          <button class="phone:flex hidden absolute right-4 text-2xl">
-            <i class="fa-solid fa-chevron-right"></i>
+          <button class="w-10 h-10 phone:w-8 phone:h-8 rounded-full bg-white">
+            <i class="fa-brands fa-youtube text-2xl phone:text-xl text-one"></i>
+          </button>
+          <button class="w-10 h-10 phone:w-8 phone:h-8 rounded-full bg-white">
+            <i
+              class="fa-brands fa-instagram text-2xl phone:text-xl text-one"
+            ></i>
+          </button>
+          <button class="w-10 h-10 phone:w-8 phone:h-8 rounded-full bg-white">
+            <i class="fa-brands fa-twitter text-2xl phone:text-xl text-one"></i>
+          </button>
+          <button class="w-10 h-10 phone:w-8 phone:h-8 rounded-full bg-white">
+            <i
+              class="fa-brands fa-facebook text-2xl phone:text-xl text-one"
+            ></i>
           </button>
         </div>
-      </div>
-    </section>
 
-    <!-- FOOTER -->
+        <div class="flex justify-center gap-x-4 text-md phone:text-sm">
+          <a href="#" class="">Contact</a>
+          <a href="#">Privacy</a>
+          <a href="#">Legal</a>
+        </div>
 
-    <footer
-      id="footer"
-      class="w-full flex flex-col gap-y-4 mt-8 text-white bg-one pb-4"
-    >
-      <div class="flex justify-center gap-x-8 border-b-1 py-4">
-        <button class="w-8 h-8 rounded-full bg-white">
-          <i class="fa-brands fa-linkedin text-xl text-one"></i>
-        </button>
-        <button class="w-8 h-8 rounded-full bg-white">
-          <i class="fa-brands fa-youtube text-xl text-one"></i>
-        </button>
-        <button class="w-8 h-8 rounded-full bg-white">
-          <i class="fa-brands fa-instagram text-xl text-one"></i>
-        </button>
-        <button class="w-8 h-8 rounded-full bg-white">
-          <i class="fa-brands fa-twitter text-xl text-one"></i>
-        </button>
-        <button class="w-8 h-8 rounded-full bg-white">
-          <i class="fa-brands fa-facebook text-xl text-one"></i>
-        </button>
-      </div>
-      <div class="flex justify-center gap-x-4 text-sm">
-        <a href="#" class="">Contact</a>
-        <a href="#">Privacy</a>
-        <a href="#">Legal</a>
-      </div>
-      <div>
-        <p class="text-xs text-center">
-          © 2022 Speakie<br />
-          all rights reserved.
-        </p>
-      </div>
-    </footer>
+        <div>
+          <p class="text-sm phone:text-xs text-center">
+            © 2022 Speakie<br class="hidden phone:flex" />
+            all rights reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
