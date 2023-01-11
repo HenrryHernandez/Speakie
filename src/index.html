@@ -33,17 +33,17 @@
           id="menu"
           class="w-full flex flex-col items-center gap-y-2 pb-8 pt-12 absolute -top-80 rounded-b-3xl text-white text-xs bg-one menu"
         >
-          <a href="#">Sign in/Sign up</a>
+          <a href="#" class="menu__link">Sign in/Sign up</a>
           <div class="w-4/5 h-1 border-t-1"></div>
-          <a href="#">Lectures</a>
-          <a href="#">Find teacher</a>
+          <a href="#" class="menu__link">Lectures</a>
+          <a href="#" class="menu__link">Find teacher</a>
 
-          <div
+          <button
             id="close-menu"
             class="w-10 h-10 flex justify-center items-center absolute right-4 top-2 text-2xl rounded-full active:bg-two"
           >
             <i class="fa-regular fa-circle-xmark"></i>
-          </div>
+          </button>
         </div>
 
         <!-- menu bar -->
@@ -64,10 +64,10 @@
             id="desktop-menu-bar"
             class="phone:hidden w-full h-full flex items-center justify-center gap-x-6 text-2xl text-one"
           >
-            <a href="#">
+            <a href="#" title="Go to lessons">
               <i class="fa-solid fa-book"></i>
             </a>
-            <a href="#">
+            <a href="#" title="Find teacher">
               <i class="fa-solid fa-magnifying-glass"></i>
             </a>
           </div>
@@ -79,12 +79,12 @@
             <a href="#">Sign In/Sign Up</a>
           </div>
 
-          <div
+          <button
             id="open-menu"
             class="hidden w-16 h-full phone:flex justify-center items-center text-one"
           >
             <i class="fa-solid fa-bars"></i>
-          </div>
+          </button>
         </nav>
       </header>
 
@@ -180,7 +180,7 @@
           </p>
 
           <button
-            class="rounded-full py-3 px-12 my-4 text-white text-sm bg-gradient-to-tr from-card-gradient-one to-card-gradient-two"
+            class="rounded-full py-3 px-12 my-4 text-white text-sm bg-gradient-to-tr from-card-gradient-one to-card-gradient-two active:scale-110 offer-button"
           >
             Sign Up Now!
           </button>
@@ -274,26 +274,20 @@
         <div
           class="flex justify-center phone:gap-x-8 phone:border-b-1 phone:py-4"
         >
-          <button class="w-10 h-10 phone:w-8 phone:h-8 rounded-full bg-white">
-            <i
-              class="fa-brands fa-linkedin text-2xl phone:text-xl text-one"
-            ></i>
+          <button class="social-media-button">
+            <i class="fa-brands fa-linkedin social-media-icon"></i>
           </button>
-          <button class="w-10 h-10 phone:w-8 phone:h-8 rounded-full bg-white">
-            <i class="fa-brands fa-youtube text-2xl phone:text-xl text-one"></i>
+          <button class="social-media-button">
+            <i class="fa-brands fa-youtube social-media-icon"></i>
           </button>
-          <button class="w-10 h-10 phone:w-8 phone:h-8 rounded-full bg-white">
-            <i
-              class="fa-brands fa-instagram text-2xl phone:text-xl text-one"
-            ></i>
+          <button class="social-media-button">
+            <i class="fa-brands fa-instagram social-media-icon"></i>
           </button>
-          <button class="w-10 h-10 phone:w-8 phone:h-8 rounded-full bg-white">
-            <i class="fa-brands fa-twitter text-2xl phone:text-xl text-one"></i>
+          <button class="social-media-button">
+            <i class="fa-brands fa-twitter social-media-icon"></i>
           </button>
-          <button class="w-10 h-10 phone:w-8 phone:h-8 rounded-full bg-white">
-            <i
-              class="fa-brands fa-facebook text-2xl phone:text-xl text-one"
-            ></i>
+          <button class="social-media-button">
+            <i class="fa-brands fa-facebook social-media-icon"></i>
           </button>
         </div>
 

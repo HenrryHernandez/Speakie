@@ -16,6 +16,9 @@ const openMenu = () => {
 const openMenuBtn = document.getElementById("open-menu");
 openMenuBtn.addEventListener("click", openMenu);
 
+const links = document.querySelectorAll(".menu__link");
+links.forEach((link) => link.addEventListener("click", closeMenu));
+
 const changeHeaderColor = () => {
   const header = document.getElementById("header");
   const bars = document.getElementById("open-menu");

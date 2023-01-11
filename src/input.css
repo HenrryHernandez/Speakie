@@ -60,6 +60,14 @@ h5 {
   @apply w-full h-full text-center text-sm leading-testimony-card text-ellipsis overflow-hidden;
 }
 
+.social-media-button {
+  @apply w-10 h-10 phone:w-8 phone:h-8 rounded-full bg-white active:bg-two;
+}
+
+.social-media-icon {
+  @apply text-2xl phone:text-xl text-one;
+}
+
 /* CSS */
 .menu {
   transition: all 0.6s ease-in-out;
@@ -139,4 +147,8 @@ h5 {
 #testimonies-section .shape-shadow {
   right: 0;
   background-color: blueviolet;
+}
+
+.offer-button {
+  transition: all 0.1s ease-in-out;
 }
