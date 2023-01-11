@@ -35,15 +35,23 @@ module.exports = {
       dropShadow: {
         "custom-card": "0px 0px 8px rgba(0, 0, 0, 0.4)",
       },
-      minHeight: {
-        "testimony-card": "24rem",
+      height: {
+        "big-screen-banner": "24rem",
       },
       lineHeight: {
         "testimony-card": "1.8",
       },
+      minHeight: {
+        "testimony-card": "24rem",
+      },
+      width: {
+        "big-screen-banner": "83.5rem",
+        "big-screen-card": "22rem",
+      },
     },
     screens: {
-      desktop: { max: "2200px" },
+      "big-screen": { min: "1401px" },
+      desktop: { max: "1400px" },
       phone: { max: "750px" },
     },
   },

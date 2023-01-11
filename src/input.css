@@ -41,7 +41,7 @@ h5 {
 
 /* APPLIES */
 .information-card {
-  @apply w-full h-44 relative flex flex-col justify-center items-center rounded-card text-xl text-white drop-shadow-custom-card bg-gradient-to-tr;
+  @apply w-full big-screen:w-big-screen-card h-44 relative flex flex-col justify-center items-center rounded-card text-xl text-white drop-shadow-custom-card bg-gradient-to-tr;
 }
 
 .section-title {
