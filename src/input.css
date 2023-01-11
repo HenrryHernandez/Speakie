@@ -40,7 +40,7 @@ h5 {
 }
 
 /* APPLIES */
-.card {
+.information-card {
   @apply w-full h-44 relative flex flex-col justify-center items-center rounded-card text-xl text-white drop-shadow-custom-card bg-gradient-to-tr;
 }
 
@@ -146,9 +146,18 @@ h5 {
 
 #testimonies-section .shape-shadow {
   right: 0;
+  bottom: 0;
   background-color: blueviolet;
 }
 
 .offer-button {
   transition: all 0.1s ease-in-out;
+}
+
+.information-card i {
+  transition: all 1s;
+}
+
+.information-card:hover i {
+  transform: translateY(-0.5rem);
 }
