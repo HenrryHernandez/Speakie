@@ -49,7 +49,7 @@ h5 {
 }
 
 .shape-shadow {
-  @apply h-40 w-40 absolute rounded-full blur-shape -z-10;
+  @apply h-40 w-40 big-screen:h-big-screen-shape big-screen:w-big-screen-shape absolute rounded-full blur-shape big-screen:blur-big-screen-shape -z-10;
 }
 
 .other-testimony-card {
@@ -122,32 +122,6 @@ h5 {
 #header,
 #open-menu {
   transition: all 0.4s ease-in-out;
-}
-
-#header .shape-shadow {
-  right: 0;
-  background-color: blueviolet;
-}
-
-#banner .shape-shadow {
-  left: 0;
-  background-color: red;
-}
-
-#cards-section .shape-shadow {
-  right: 0;
-  background-color: blue;
-}
-
-#offer-section .shape-shadow {
-  left: 0;
-  background-color: blue;
-}
-
-#testimonies-section .shape-shadow {
-  right: 0;
-  bottom: 0;
-  background-color: blueviolet;
 }
 
 .offer-button {
