@@ -25,6 +25,7 @@ const changeHeaderColor = () => {
   const desktopMenuBar = document.getElementById("desktop-menu-bar");
   const headerShapeShadow = document.getElementById("header-shape-shadow");
   const signIn = document.getElementById("sign-in");
+  const logo = document.getElementById("logo");
 
   const headerSize = 64;
 
@@ -36,6 +37,8 @@ const changeHeaderColor = () => {
     desktopMenuBar.classList.add("text-white");
     signIn.classList.remove("text-one");
     signIn.classList.add("text-white");
+    logo.classList.remove("text-one");
+    logo.classList.add("text-white");
     headerShapeShadow.classList.add("hidden");
   } else {
     header.classList.remove("bg-one");
@@ -45,6 +48,8 @@ const changeHeaderColor = () => {
     desktopMenuBar.classList.add("text-one");
     signIn.classList.remove("text-white");
     signIn.classList.add("text-one");
+    logo.classList.remove("text-white");
+    logo.classList.add("text-one");
     headerShapeShadow.classList.remove("hidden");
   }
 };
