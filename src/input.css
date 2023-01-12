@@ -41,19 +41,19 @@ h5 {
 
 /* APPLIES */
 .information-card {
-  @apply w-full big-screen:w-big-screen-card h-44 relative flex flex-col justify-center items-center rounded-card text-xl text-white drop-shadow-custom-card bg-gradient-to-tr;
+  @apply w-full big-screen:w-big-screen-card h-44 flex flex-col justify-center items-center relative rounded-card text-xl text-white drop-shadow-custom-card bg-gradient-to-tr;
 }
 
 .section-title {
-  @apply bg-gradient-to-tr from-custom-title-one to-custom-title-two bg-clip-text text-transparent;
+  @apply font-bold bg-gradient-to-tr from-custom-title-one to-custom-title-two bg-clip-text text-transparent;
 }
 
 .shape-shadow {
-  @apply h-40 w-40 big-screen:h-big-screen-shape big-screen:w-big-screen-shape absolute rounded-full blur-shape big-screen:blur-big-screen-shape -z-10;
+  @apply h-40 w-40 big-screen:h-80 big-screen:w-80 absolute rounded-full blur-shape big-screen:blur-big-screen-shape -z-10;
 }
 
 .other-testimony-card {
-  @apply phone:hidden w-80 h-80 flex flex-col items-center justify-center relative px-4 py-8 text-white rounded-card;
+  @apply phone:hidden w-80 h-80 flex flex-col justify-center items-center relative px-4 py-8 text-white rounded-card;
 }
 
 .other-testimony-text {

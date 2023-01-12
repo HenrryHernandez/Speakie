@@ -9,7 +9,7 @@ module.exports = {
       },
       blur: {
         shape: "7.5rem",
-        "big-screen-shape": "16rem",
+        "big-screen-shape": "256px",
       },
       colors: {
         one: "#9171C5",
@@ -37,12 +37,8 @@ module.exports = {
       dropShadow: {
         "custom-card": "0px 0px 8px rgba(0, 0, 0, 0.4)",
       },
-      height: {
-        "big-screen-banner": "24rem",
-        "big-screen-shape": "20rem",
-      },
       lineHeight: {
-        "testimony-card": "1.8",
+        "testimony-card": "1.8rem",
       },
       minHeight: {
         "testimony-card": "24rem",
@@ -50,7 +46,6 @@ module.exports = {
       width: {
         "big-screen-banner": "83.5rem",
         "big-screen-card": "22rem",
-        "big-screen-shape": "20rem",
       },
     },
     screens: {

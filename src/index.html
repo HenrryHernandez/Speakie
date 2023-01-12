@@ -43,7 +43,7 @@
 
           <button
             id="close-menu"
-            class="w-10 h-10 flex justify-center items-center absolute right-4 top-2 text-2xl rounded-full active:bg-two"
+            class="w-10 h-10 flex justify-center items-center absolute right-4 top-2 rounded-full text-2xl active:bg-two"
           >
             <i class="fa-regular fa-circle-xmark"></i>
           </button>
@@ -61,7 +61,7 @@
 
           <div
             id="desktop-menu-bar"
-            class="phone:hidden w-40 h-full flex items-center justify-center gap-x-6 text-2xl text-one"
+            class="phone:hidden w-40 h-full flex justify-center items-center gap-x-6 text-2xl text-one"
           >
             <a href="#" title="Go to lessons">
               <i class="fa-solid fa-book"></i>
@@ -96,22 +96,22 @@
 
         <!-- card -->
         <div
-          class="w-full big-screen:w-big-screen-banner big-screen:h-big-screen-banner flex phone:flex-col items-center justify-center phone:py-0 py-16 text-white rounded-card bg-gradient-to-tr from-card-gradient-one to-card-gradient-two"
+          class="w-full big-screen:w-big-screen-banner big-screen:h-96 flex phone:flex-col justify-center items-center py-16 phone:py-0 rounded-card text-white bg-gradient-to-tr from-card-gradient-one to-card-gradient-two"
         >
           <div
-            class="w-full h-56 flex flex-col justify-center items-center px-16 pt-8 text-center phone:text-sm text-md"
+            class="w-full h-56 flex flex-col justify-center items-center px-16 pt-8 text-center text-md phone:text-sm"
           >
-            <h1 class="phone:mb-14 mb-4 font-bold">Speakie</h1>
+            <h1 class="mb-4 phone:mb-14 font-bold">Speakie</h1>
 
             <blockquote class="mb-2">
-              <p class="phone:w-full w-44 phone:text-center text-start">
+              <p class="w-44 phone:w-full text-start phone:text-center">
                 To have another language is to posses a second soul.
               </p>
             </blockquote>
             <p class="self-center phone:self-end pl-24">— CHARLEMAGNE</p>
           </div>
 
-          <div class="w-full flex flex-col justify-center items-center h-64">
+          <div class="w-full h-64 flex flex-col justify-center items-center">
             <img
               src="../assets/img/language-translator.png"
               alt="language-translator"
@@ -124,7 +124,7 @@
       <!-- CARDS -->
       <section
         id="cards-section"
-        class="flex phone:flex-col justify-center items-center relative gap-16 py-12 px-20"
+        class="flex phone:flex-col justify-center items-center gap-16 py-12 px-20 relative"
       >
         <div class="shape-shadow right-0 bg-blue"></div>
 
@@ -132,7 +132,7 @@
           class="from-card-one-gradient-one to-card-one-gradient-two information-card"
         >
           <i
-            class="fa-solid fa-book absolute -top-6 text-card-one-icon text-5xl"
+            class="fa-solid fa-book absolute -top-6 text-5xl text-card-one-icon"
           ></i>
           <p>
             +30,000<br />
@@ -144,7 +144,7 @@
           class="from-card-two-gradient-one to-card-two-gradient-two information-card"
         >
           <i
-            class="fa-solid fa-users absolute -top-6 text-card-two-icon text-5xl"
+            class="fa-solid fa-users absolute -top-6 text-5xl text-card-two-icon"
           ></i>
           <p>
             +100,000<br />
@@ -156,7 +156,7 @@
           class="from-card-three-gradient-one to-card-three-gradient-two information-card"
         >
           <i
-            class="fa-solid fa-language absolute -top-6 text-card-three-icon text-5xl"
+            class="fa-solid fa-language absolute -top-6 text-5xl text-card-three-icon"
           ></i>
           <p class="text-center">
             54<br />
@@ -168,26 +168,26 @@
       <!-- OFFER -->
       <section
         id="offer-section"
-        class="flex phone:flex-col flex-row-reverse justify-center items-center relative gap-x-16 mt-16"
+        class="flex flex-row-reverse phone:flex-col justify-center items-center gap-x-16 mt-16 relative"
       >
         <div class="shape-shadow left-0 bg-blue"></div>
 
         <div class="flex flex-col justify-center items-center">
-          <h3 class="section-title font-bold">Special Offer</h3>
+          <h3 class="section-title">Special Offer</h3>
 
-          <p class="phone:w-full w-52 phone:text-center my-4 phone:px-16">
+          <p class="w-52 phone:w-full my-4 phone:px-16 phone:text-center">
             If you sign up right now, you'll receive a free class every Friday
             during January.
           </p>
 
           <button
-            class="rounded-full py-3 px-12 my-4 text-white text-sm bg-gradient-to-tr from-card-gradient-one to-card-gradient-two active:scale-110 offer-button"
+            class="my-4 py-3 px-12 rounded-full text-white text-sm bg-gradient-to-tr from-card-gradient-one to-card-gradient-two active:scale-110 offer-button"
           >
             Sign Up Now!
           </button>
         </div>
 
-        <div class="phone:w-64 w-80">
+        <div class="w-80 phone:w-64">
           <img src="../assets/img/favourite-book.png" alt="book" class="book" />
         </div>
       </section>
@@ -195,15 +195,15 @@
       <!-- TESTIMONIES -->
       <section
         id="testimonies-section"
-        class="flex justify-center items-center relative mt-16 pb-4 phone:pb-0"
+        class="flex justify-center items-center mt-16 pb-4 phone:pb-0 relative"
       >
         <div class="shape-shadow bottom-0 right-0 bg-blueviolet"></div>
 
         <div class="flex flex-col justify-center items-center">
-          <h3 class="section-title font-bold">Testimonies</h3>
+          <h3 class="section-title">Testimonies</h3>
 
           <div
-            class="flex items-center justify-center w-full pt-20 pb-16 phone:px-12 relative text-one"
+            class="w-full flex justify-center items-center pt-20 pb-16 phone:px-12 relative text-one"
           >
             <!-- card left -->
             <div class="other-testimony-card prev-card">
@@ -223,7 +223,7 @@
 
             <!-- card -->
             <div
-              class="phone:w-full w-96 min-h-testimony-card flex flex-col items-center relative px-4 pt-16 pb-8 phone:mx-0 mx-8 text-white rounded-card bg-gradient-to-tr from-card-gradient-one to-card-gradient-two"
+              class="w-96 phone:w-full min-h-testimony-card flex flex-col items-center mx-8 phone:mx-0 px-4 pt-16 pb-8 relative rounded-card text-white bg-gradient-to-tr from-card-gradient-one to-card-gradient-two"
             >
               <img
                 src="./../assets/img/profile-pic.png"
@@ -256,10 +256,10 @@
               </button>
             </div>
 
-            <button class="phone:flex hidden absolute left-4 text-2xl">
+            <button class="hidden phone:flex absolute left-4 text-2xl">
               <i class="fa-solid fa-chevron-left"></i>
             </button>
-            <button class="phone:flex hidden absolute right-4 text-2xl">
+            <button class="hidden phone:flex absolute right-4 text-2xl">
               <i class="fa-solid fa-chevron-right"></i>
             </button>
           </div>
@@ -270,7 +270,7 @@
 
       <footer
         id="footer"
-        class="w-full flex phone:flex-col flex-row-reverse justify-between items-center phone:items-stretch gap-y-4 mt-8 px-4 py-4 phone:py-0 phone:px-0 phone:pb-4 text-white bg-one"
+        class="w-full flex flex-row-reverse phone:flex-col justify-between items-center phone:items-stretch gap-y-4 mt-8 px-4 py-4 phone:px-0 phone:pt-0 text-white bg-one"
       >
         <div
           class="flex justify-center phone:gap-x-8 phone:border-b-1 phone:py-4"
