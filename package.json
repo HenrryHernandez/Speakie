@@ -4,8 +4,10 @@
   "description": "",
   "main": "script.js",
   "scripts": {
+    "install": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "start": "http-server"
   },
   "author": "",
   "license": "ISC",
