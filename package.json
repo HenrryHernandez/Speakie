@@ -5,7 +5,8 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "prod": "xcopy .\\src\\index.html .\\prod\\ && xcopy .\\dist\\output.css .\\prod\\ && xcopy .\\src\\script.js .\\prod\\ && xcopy .\\assets .\\prod\\assets /E /H /C /I"
   },
   "author": "",
   "license": "ISC",
